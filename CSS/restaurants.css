@@ -22,6 +22,7 @@ footer{
 	justify-content: center;
 	align-items: center;
 	line-height: 1.5em;
+	font-family: 'Roboto', sans-serif;
 	background-color: #2D2D2D;
 	padding: 3% 0% 2% 0%;
 }
@@ -66,7 +67,7 @@ section{
 	margin: 4% 0%;
 }
 section div.top {
-	
+
 	width: 90%;
 	display: flex;
 	justify-content: space-between;
