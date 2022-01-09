@@ -1,0 +1,224 @@
+body{
+
+
+	margin: 0em;
+	padding: 0em;
+}
+p{
+	margin: 0px;
+}
+footer{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	line-height: 1.5em;
+	background-color: #2D2D2D;
+	padding: 2% 0%;
+}
+/*------------------------------ header ---------------------------------------*/
+
+.div_logo{
+
+	width: 100%;
+	text-align: center;
+	box-shadow:0px 2px 2px grey;
+	background-color: white;
+}
+.logo{
+
+	width: 10em;
+	height: 2em;
+	margin: 2% 0%;
+}
+/*-----------------------------------------------------------------------------*/
+/*------------------------------ section1 -------------------------------------*/
+
+/*---------------- top -----------------------*/
+.top{
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #FFF5EE;
+	padding-bottom: 3em;
+}
+.form_search{
+
+	width: 100%;
+	height: 3em;
+	text-align: end;
+	background-color: #FFECDE;
+	margin: 0.5%;
+}
+.input_search{
+
+	width: 47%;
+	height: 100%;
+	border: 0px;
+	font-weight: bold;
+	font-size: 1.1em;
+	background-color: #FFECDE;
+	margin: 0em 4em 0em 0.7em;
+}
+.title_1{
+
+	width: 70%;
+	text-align: center;
+	font-size: 1.7em;	
+}
+.title_2{
+
+	width: 80%;
+	text-align: center;
+	font-size: 1.3em;
+	font-weight: lighter;
+	margin: 0em 0em 2em 0em;
+}
+.btn_explore{
+
+	width: 65%;
+	height: 3em;
+	font-size: 1.1em;
+	border: 0px;
+	border-radius: 2em;
+	box-shadow: 0em 0.2em 0.2em grey;
+	color: white;
+	background-color: #9356DC;
+}
+/*--------------------------------------------*/
+/*------------- bottom -----------------------*/
+.section1{
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	margin: 0em 0em 3em 0em;
+}
+.title_section1{
+
+	width: 90%;
+}
+.step{
+
+	width: 85%;
+	height: 4em;
+	display: flex;
+	align-items: center;
+	border-radius: 1em;
+	box-shadow: 0em 0.2em 0.2em grey;
+	background-color: #FFECDE;
+	margin: 2%;
+}
+.step .nb{
+
+	width: 1.5em;	/* set a circle background around icon*/
+	min-width: 1.5em;
+    height: 1.5em;
+    border-radius: 1.5em;
+    line-height: 1.5em;
+    text-align: center;
+    vertical-align: middle;
+	background-size: cover;
+	background-color: #C43FFF;
+	color: white;/*----------------------------------------*/    
+	font-size: 1em;
+	margin: 0em 0em 0em -0.7em;
+
+}
+.step .icon{
+
+	font-size: 1.3em;
+	position: relative;	
+    left: 6%;
+    color: grey;
+}
+.step .text{
+
+	position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    font-weight: bold;
+}
+/*-----------------------------------------------------------------------------*/
+/*------------------------------ section2 -------------------------------------*/
+.section2{
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	background-color: #FFECDE;	
+	padding: 3em 0em;
+}
+.title_section2{
+
+	width: 90%;
+}
+.restaurant{
+
+	width: 90%;
+	border-radius: 1.5em;
+	background-color: white;
+	box-shadow: 0em 0.2em 0.2em grey;
+	margin: 2% 0% 2% 0%;
+}
+.restaurant a{
+
+	width: 100%;
+	height: 100%;
+	display: flex;
+	text-decoration: none;
+	color: black;
+}
+.restaurant img{
+
+	width: 100%;
+	height: 11em;
+	display: block;
+	object-fit: cover;
+	border-radius: 1.5em 1.5em 0em 0em;
+}
+.restaurant div{
+
+	height: 4em;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.restaurant p{
+
+	width: 94%;
+	align-self: center;
+	padding: 0% 0% 0% 6%;
+}
+.restaurant .fav_icon{
+
+	width: 1em;
+	height: 1em;
+	position: absolute;
+	right: 10%;
+	font-size: 1.3em;
+}
+
+/*-----------------------------------------------------------------------------*/
+/*------------------------------ footer ---------------------------------------*/
+
+footer ul{
+
+	width: 90%;
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+footer li, .footer{
+
+	text-decoration: none;
+	color: white;
+}
+footer i{
+
+	font-size: 1em;
+	margin: 0% 3% 0% 0%;
+}
