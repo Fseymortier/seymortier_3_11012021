@@ -201,7 +201,7 @@ footer{
 }
 .restaurant p{
 
-	width: 94%;
+	width: 90%;
 	align-self: center;
 	font-size: 1.1em;
 	padding: 0% 0% 0% 6%;
@@ -214,9 +214,8 @@ footer{
 
 	width: 1em;
 	height: 1em;
-	position: absolute;
-	right: 10%;
 	font-size: 1.5em;
+	margin-right: 7%;
 }
 
 /*-----------------------------------------------------------------------------*/
