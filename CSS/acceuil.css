@@ -57,7 +57,7 @@ footer{
 	height: 3em;
 	text-align: end;
 	background-color: #FFECDE;
-	margin-top: 0.5%;
+	margin-top: 0.4%;
 }
 .input_search{
 
@@ -78,9 +78,9 @@ footer{
 }
 .title_2{
 
-	width: 80%;
+	width: 85%;
 	text-align: center;
-	font-size: 1.3em;
+	font-size: 1.1em;
 	font-weight: lighter;
 	margin: 0em 0em 2em 0em;
 }
@@ -127,7 +127,7 @@ footer{
 	min-width: 1.5em;
     height: 1.5em;
     border-radius: 1.5em;
-    line-height: 1.5em;
+    line-height: 1.7em;
     text-align: center;
     vertical-align: middle;
 	background-size: cover;
@@ -141,11 +141,13 @@ footer{
 
 	font-size: 1.3em;
 	position: relative;	
-    left: 6%;
+    left: 10%;    
+    transform: translate(-100%, 0%);
     color: grey;
 }
 .step .text{
 
+	width: 11em;
 	position: absolute;
     left: 50%;
     transform: translate(-50%, 0%);
@@ -230,6 +232,7 @@ footer ul {
 footer li.text {
 
 	font-family: 'Shrikhand', cursive;
+	font-size: 1.2em;
 	margin: 2% 0%;
 }
 footer li, .footer{
