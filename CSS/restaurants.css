@@ -15,8 +15,8 @@ p{
 
 	font-family: 'Roboto', sans-serif;
 }
-
 footer{
+
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -72,12 +72,12 @@ section div.top {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	margin: 3% 0%;
 }
 section h1{
 
 	width: 80%;
 	font-family: 'Shrikhand', cursive;
+	font-size: 2em;
 }
 section .fav_icon{
 
@@ -88,8 +88,17 @@ section .fav_icon{
 section h2{
 
 	width: 90%;
+	height: 2em;
 	font-size: 1.3em;
 	font-family: 'Roboto', sans-serif;
+}
+span{
+
+	width: 3.3em;
+    border-bottom: 0.3em #99E2D0 solid;
+    position: absolute;
+    top: 60%;
+    left: 5.2%;
 }
 /*--------------------------------------------------*/
 section div.plats{
