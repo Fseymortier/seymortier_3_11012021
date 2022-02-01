@@ -1,0 +1,63 @@
+@media screen and (min-width: 1200px){
+
+	.section1{
+
+		flex-direction: inherit;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: inherit;
+		margin: 0em;
+	}
+	.form_search{
+
+		width: 56%;
+		text-align: center;
+		border-radius: 2em;
+		box-shadow: 0em 0.2em 0.2em grey;
+		margin: 2em 0em;
+	}
+	.input_search{
+
+		margin: 0em;
+	}
+	.top{
+
+		width: 45%;
+		justify-content: space-between;
+		background-color: inherit;
+		border-right: 0.1em #f6f6f6 solid;
+		border-bottom: 0.2em #f6f6f6 solid;
+	}
+	.title_1{
+		
+		margin: 1.2em 0em 0em;
+	}
+	.functioning{
+
+		width: 45%;
+		border-left: 0.1em #f6f6f6 solid;
+		border-bottom: 0.2em #f6f6f6 solid;
+		padding: 0em 0em 3em;
+	}
+	.title_section1{
+
+		width: 70%;
+		font-size: 1.7em;
+		text-align: center;
+		margin: 1.2em 0em 0.5em;
+	}
+	.section2{
+
+		flex-direction: inherit;
+		flex-wrap: wrap;
+		background-color: inherit;
+	}
+	.restaurant{
+
+		width: 20%;
+	}
+	.restaurant img{
+
+		height: 15em;
+	}	
+}

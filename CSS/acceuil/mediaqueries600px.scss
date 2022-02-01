@@ -1,0 +1,30 @@
+@media screen and (min-width: 620px){
+	.functioning{
+		flex-direction: initial;
+		flex-wrap: wrap;
+	}
+	.section2{
+		flex-direction: inherit;
+		flex-wrap: wrap;
+		background-color: inherit;
+	}
+	.restaurant{
+		width: 20em;
+	}
+	.restaurant img{
+		height: 15em;
+	}
+	footer ul{
+		display: flex;
+		justify-content: space-around;
+	}
+	footer .title_footer{
+		text-align: center;
+	}
+	footer li{
+		margin: 0 1.5%;
+	}
+	.popup .content_popup{
+		width: 30em;
+	}
+}
