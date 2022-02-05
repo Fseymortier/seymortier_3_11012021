@@ -191,7 +191,7 @@ span {
   /* the next two rules are required for text-overflow */
   white-space: nowrap;
   overflow: hidden;
-  margin-left: 1em;
+  margin: 1em;
 }
 .text strong {
   font-size: 1.2em;
