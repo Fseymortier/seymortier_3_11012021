@@ -1,4 +1,4 @@
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1000px) {
   .section1 {
     flex-direction: inherit;
     flex-wrap: wrap;
@@ -39,7 +39,7 @@
   }
 
   .title_section1 {
-    width: 70%;
+    width: 100%;
     font-size: 1.7em;
     text-align: center;
     margin: 1.2em 0em 0.5em;
@@ -58,4 +58,4 @@
   .restaurant img {
     height: 15em;
   }
-}/*# sourceMappingURL=mediaqueries992px.css.map */
+}/*# sourceMappingURL=mediaqueries1000px.css.map */
