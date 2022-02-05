@@ -4,6 +4,10 @@
     flex-wrap: wrap;
   }
 
+  .step {
+    width: 18em;
+  }
+
   .section2 {
     flex-direction: inherit;
     flex-wrap: wrap;
