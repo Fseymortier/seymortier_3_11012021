@@ -27,7 +27,7 @@ p {
   -webkit-animation: loader_anim 3.2s;
           animation: loader_anim 3.2s;
 }
-.loader .text_loader1 {
+.loader .text_loader1, .loader .text_loader2 {
   width: 70%;
   font-family: "Shrikhand", cursive;
   position: absolute;
@@ -40,16 +40,8 @@ p {
   transform: scale(0);
 }
 .loader .text_loader2 {
-  width: 70%;
-  font-family: "Shrikhand", cursive;
-  position: absolute;
-  background-image: -webkit-linear-gradient(170deg, #FF79DA, #9356DC);
-  -webkit-background-clip: text;
-  color: transparent;
-  text-align: center;
-  -webkit-animation: text_anim2 3s ease-out;
-          animation: text_anim2 3s ease-out;
-  transform: scale(0);
+  -webkit-animation: text_anim2 3s ease-in-out;
+          animation: text_anim2 3s ease-in-out;
   opacity: 0.6;
 }
 
@@ -120,12 +112,13 @@ p {
   text-align: center;
   box-shadow: 0 2px 2px grey;
   background-color: white;
+  padding: 0.5em 0;
 }
 
 .logo {
   width: 10em;
   height: 2em;
-  margin: 2% 0;
+  margin: 1em 0;
 }
 
 /*-----------------------------------------------------------------------------*/

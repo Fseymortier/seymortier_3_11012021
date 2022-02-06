@@ -36,6 +36,7 @@ p{
 		transform: scale(0);
 	}
 	.text_loader2{
+		animation: text_anim2 3s ease-in-out;
 		opacity: 0.6;
 	}
 }
