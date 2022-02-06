@@ -24,7 +24,7 @@ p{
 	background-color: white;
 	font-size: 5vh;
 	animation: loader_anim 3.2s;
-	.text_loader1{
+	.text_loader1, .text_loader2{
 		width: 70%;
 		font-family: 'Shrikhand', cursive;
 		position: absolute;
@@ -36,15 +36,6 @@ p{
 		transform: scale(0);
 	}
 	.text_loader2{
-		width: 70%;
-		font-family: 'Shrikhand', cursive;
-		position: absolute;
-		background-image: -webkit-linear-gradient(170deg,#FF79DA, $purple);
-		-webkit-background-clip: text;
-		color: transparent;
-		text-align: center;
-		animation: text_anim2 3s ease-out;
-		transform: scale(0);
 		opacity: 0.6;
 	}
 }
